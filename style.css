@@ -1,0 +1,32 @@
+body {
+	
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+
+}
+
+.mission {
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    margin: 0 auto;
+    background-image: url("images/mission.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.toCenter {
+	position: absolute;
+	top: 50%;
+	
+    margin: 0 auto;
+	width: 100%;
+	transform: translateY(-50%);
+	background-color: black;
+}
