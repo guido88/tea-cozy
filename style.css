@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 	
   font-family: Helvetica;
@@ -9,11 +13,47 @@ body {
 
 }
 
+.header {
+    top: 0px;
+    left: 0px;
+    position:fixed;
+    z-index: 1;
+    background-color: black;
+    width:100%;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+
+}
+
+nav {
+  
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right:10px;
+  
+}
+
+nav span{
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+#logo {
+float: left;
+height: 50px;
+
+}
+
+.main {
+   margin: 0 auto;
+   width: 1200px;
+}
+
 .mission {
-    width: 1200px;
+    
     height: 700px;
     position: relative;
-    margin: 0 auto;
     background-image: url("images/mission.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -24,9 +64,87 @@ body {
 .toCenter {
 	position: absolute;
 	top: 50%;
-	
-    margin: 0 auto;
+  margin: 0 auto;
 	width: 100%;
 	transform: translateY(-50%);
 	background-color: black;
+}
+
+.month-tea {
+    margin: 0 auto;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.box-img {
+
+   display: inline-block;
+   margin: 5px;
+}
+
+
+.box-img img {
+
+   width:300px;
+   height: 200px;
+   margin-bottom: 5px;
+  
+}
+
+
+.box-img span {
+
+   display: block;
+  
+}
+
+.locations{
+
+    height: 500px;
+    width:100%;
+    background-image: url("images/locations.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.boxes {
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations h2{
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.box-loc {
+  display: inline-block;
+  background-color: black;
+  width:300px;
+  height:300px;
+  margin: 20px;
+  opacity: 1;
+
+}
+
+
+
+.contact{
+
+  height: 200px;
+
+}
+
+
+.footer{
+
+ width: 100%;
+ text-align: left;
+ padding-left:20px;
 }
