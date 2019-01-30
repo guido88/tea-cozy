@@ -99,41 +99,45 @@ height: 50px;
 }
 
 .locations{
-
+    position: relative;
     height: 500px;
     width:100%;
     background-image: url("images/locations.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     
 }
 
-
-.boxes {
-    height: 100%;
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .locations h2{
-  height: 50px;
+  position: relative;
+  top: 25%;
   margin-bottom: 15px;
 }
 
-.box-loc {
-  display: inline-block;
-  background-color: black;
-  width:300px;
-  height:300px;
-  margin: 20px;
-  opacity: 1;
-
+.boxes{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
+.box-loc {
+  
+  background-color: black;
+  width:330px;
+  display: inline-block;
+  opacity: 1;
+  margin:10px;
 
+  
+  
+}
+
+.box-loc h3{
+    
+    
+}
 
 .contact{
 
